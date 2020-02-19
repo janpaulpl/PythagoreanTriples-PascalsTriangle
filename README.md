@@ -6,6 +6,7 @@ and a Coq proof that focuses on proving the math.
 Links used during this investigation:
 
 http://www.cs.uleth.ca/~gaur/post/progasproof/ - Coq Proof for sum of n-integers
+
 https://www.programiz.com/cpp-programming/examples/pyramid-pattern - C++ Pascal Triangle help
 
 Everything else - Done by me 
