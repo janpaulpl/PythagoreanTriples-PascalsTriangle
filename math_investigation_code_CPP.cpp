@@ -15,7 +15,7 @@ int main()
 	// Explanation of investigation
     cout << " " << endl;
     cout << "This is a Pascal Triangle, a triangular array of the binomial coefficients." << endl; // Explanation
-    cout << "The colored diagonal line highlights a diagonal that is known as the Triangular Number series," << endl; // Explanation
+    cout << "The sequence of the 2nd term in every row is known as the Triangular Number series," << endl; // Explanation
     cout << "which can be expressed in the formula n(n+1)/2, or the corresponding binomial coefficient." << endl; // Explanation
     cout << " " << endl;
 
