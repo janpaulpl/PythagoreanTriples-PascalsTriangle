@@ -14,9 +14,13 @@ int main()
 {
 	// Explanation of investigation
     cout << " " << endl;
-    cout << "This is a Pascal Triangle, a triangular array of the binomial coefficients." << endl; // Explanation
-    cout << "The sequence of the 2nd term in every row is known as the Triangular Number series," << endl; // Explanation
-    cout << "which can be expressed in the formula n(n+1)/2, or the corresponding binomial coefficient." << endl; // Explanation
+
+    const char *Explanation =
+    "This is a Pascal Triangle, a triangular array of the binomial coefficients."
+    "The sequence of the 2nd term in every row is known as the Triangular Number series,"
+    "which can be expressed in the formula n(n+1)/2, or the corresponding binomial coefficient.";
+    
+    cout << Explanation << endl;
     cout << " " << endl;
 
     // Pascal Triangle
@@ -45,10 +49,12 @@ int main()
     int row;
     int row_double;
 
+    const char *Remember = 
+    "Remember that we will start with the first row being 0."
+    "Input the row (horizontal line) you wish to find the Pythagorean Triple from: ";
+
     cout << "" << endl;
-    cout << "Remember that we will start with the first row being 0";
-    cout << "" << endl;
-    cout << "Input the row (horizontal line) you wish to find the Pythagorean Triple from: ";
+    cout << Remember << endl;
     cin >> row; // Geting user input for row
     row_double = 2 * row; // Declaring doubke amount of the row
 
@@ -61,19 +67,21 @@ int main()
     cout << " " << endl;
 
     // Explaining wtf just happened part of the code
-    cout << "Now how did we just get our Pythagorean Triple? This is what happened..." << endl;
-    cout << "As explained earlier, notice that in the row you chose (the " << row << "row)" << endl;
-    cout << "the second element is a number in the sum of n-integers sequence." << endl;    
-    cout << " ";
-    cout << "It is known that in this sequence you can find any Pythagorean Triple," << endl;
-    cout << "evidenced by the fact that there exists a specific set of b's in which" << endl;
-    cout << "said variable is a multiple from an n integer in the sum of n-integers sequence." << endl;
-    cout << "Using this knowledge, I converted the known way of finding the Pythagorean Triples" << endl;
-    cout << "into valid formulas to find these variables only using the row in the Pascal Triangle" << endl;
-    cout << "in which we find the n integer from the said sequence." << endl;
-    cout << " ";
-    cout << "The mathematical proof can be found in the followink link: " << endl;
-    cout << "https://github.com/jpVinnie/Pythagorean-Triples-in-the-Pascal-Triangle" << endl;
+    const char *WTF =
+    "Now how did we just get our Pythagorean Triple? This is what happened..."
+    "As explained earlier, notice that the second element in the row you chose"
+    "is a number in the sum of n-integers sequence."
+    "It is known that in this sequence you can find any Pythagorean Triple,"
+    "evidenced by the fact that there exists a specific set of b's in which"
+    "said variable is a multiple from an n integer in the sum of n-integers sequence."
+    "Using this knowledge, I converted the known way of finding the Pythagorean Triples"
+    "into valid formulas to find these variables only using the row in the Pascal Triangle"
+    "in which we find the n integer from the said sequence."
+    "The mathematical proof can be found in the followink link: "
+    "https://github.com/jpVinnie/Pythagorean-Triples-in-the-Pascal-Triangle";
+    
+    cout << WTF << endl;
+
 
     // Answer to repeat finding or not
     string answer;
@@ -127,9 +135,9 @@ int main()
         int row_double;
 
         cout << "" << endl;
-        cout << "Remember that we will start with the first row being 0." << endl;
-        cout << "Input the row (horizontal line) you wish to find the Pythagorean Triple from: ";
+        cout << Remember << endl;
         cin >> row; 
+
         row_double = 2 * row; 
 
         // {a,b,c} Pythagorean Triple
