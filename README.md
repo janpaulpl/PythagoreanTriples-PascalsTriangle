@@ -13,4 +13,4 @@ and a Coq proof that focuses on proving the math.
 
 
 **UPDATE JULY 2020**
-- The project will remain unarchived for practical reasons but for now, no future updates are planned to occur.
+- The project will remain archived for practical reasons; no future updates are planned to occur.
