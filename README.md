@@ -5,9 +5,9 @@ and a Coq proof that focuses on proving the math.
 
 Links used during this investigation:
 
-http://www.cs.uleth.ca/~gaur/post/progasproof/ - Coq Proof for sum of n-integers
+[Coq Proof for sum of n-integers](http://www.cs.uleth.ca/~gaur/post/progasproof/)
 
-https://www.programiz.com/cpp-programming/examples/pyramid-pattern - C++ Pascal Triangle help
+[C++ Pascal Triangle help](https://www.programiz.com/cpp-programming/examples/pyramid-pattern)
 
 Everything else - Done by me 
 
