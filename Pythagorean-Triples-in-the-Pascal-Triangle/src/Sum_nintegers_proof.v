@@ -8,7 +8,6 @@ Date: February 2020
 
 Copyright 2020, Jan-Paul V. Ramos, All rights reserved.*)
 
-
 (* A recursive definition of 1+2+...+n *)
 
 Require Import Arith.
