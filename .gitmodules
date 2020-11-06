@@ -1,9 +1,3 @@
-[submodule "MathInv-2021"]
-	path = MathInv-2021
-	url = https://github.com/jpVinnie/MathInv-2021.git
-[submodule "Applying-Differential-Equations-into-Computing-using-Types-and-integrating-a-programming-language-in"]
-	path = Applying-Differential-Equations-into-Computing-using-Types-and-integrating-a-programming-language-in
-	url = https://github.com/jpVinnie/Applying-Differential-Equations-into-Computing-using-Types-and-integrating-a-programming-language-in.git
 [submodule "Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface"]
 	path = Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface
 	url = https://github.com/jpVinnie/Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface.git
