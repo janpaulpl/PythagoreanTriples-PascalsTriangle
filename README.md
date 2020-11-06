@@ -1,5 +1,5 @@
 #### My research
 
-This repository has the purpose of archiving all my finished research papers regarding programming.
+Repository filled with a bunch of subrepos of all my math/programming research.
 
 Copyright @ Me.
