@@ -1,6 +1,3 @@
-[submodule "Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface"]
-	path = Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface
-	url = https://github.com/jpVinnie/Applying-DEs-into-Computing-using-Types-and-integrating-a-programming-language-interface.git
 [submodule "diffeq-lang"]
 	path = diffeq-lang
 	url = https://github.com/jpVinnie/diffeq-lang.git
