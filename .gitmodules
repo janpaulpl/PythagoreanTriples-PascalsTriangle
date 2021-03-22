@@ -1,0 +1,3 @@
+[submodule "diffeq-lang"]
+	path = diffeq-lang
+	url = https://github.com/jpVinnie/diffeq-lang.git
