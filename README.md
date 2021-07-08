@@ -1,23 +1,3 @@
 # Pythagorean Triples in the Pascal Triangle
 
-Created for my math investigation through January-February 2020. This repo includes C++ code to visualize the results, 
-and a Coq proof that focuses on proving the math.
-
-Links used during this investigation:
-
-[Coq Proof for sum of n-integers](http://www.cs.uleth.ca/~gaur/post/progasproof/)
-
-[C++ Pascal Triangle help](https://www.programiz.com/cpp-programming/examples/pyramid-pattern)
-
-Everything else - Done by me 
-
-Author: Jan-Paul V. Ramos
-
-Date: February 2020
-
-Copyright 2020, Jan-Paul V. Ramos, All rights reserved.
-
-
-
-**UPDATE APRIL 2020**
-As this project has concluded and no further updates will happen, the project has been archived. 
+Mathematicians have been known to use logic and intuition to prove mathematical concepts. In modern day mathematics, applications have widely expanded into modern technology. The need for more efficient ways to solve such complex problems mathematically has come into question, but recently we’ve gotten an answer. Proof assistant software has been developed to help mathematicians verify their proofs utilizing an Integrated Development Environment. This investigation focuses on the use of computation, and seeks for two main conclusions: a new way of generalizing Pythagorean Triples using Pascal’s Triangle, and the use of these Triples in data trees. Pascal’s Triangle is known for its use in many mathematical problems. This investigation rewrites the base of the Triangle, the binomial coefficient formula, to choose the second term in each row of Triangle, re-defining the first coefficient as the 0th term. This new formula has the properties of finding any nth number in the triangular series and is plugged in a formula that derives Pythagorean Triples using terms in the Triangular Series. Finally it is proved in the Pythagorean Theorem, proving it works for all Z+. A program written in C++ was developed to explain these findings, along with a proof for the sum of nintegers, to show the usefulness of computational methods in mathematics. While analyzing data, it was found that the Triples were the same as the one’s in the “top branch” of Berggren’s tree of primitive Pythagorean Triples. This leads to the possibility of a future investigation that uses a Pythagorean Triple data tree, and rewrites the “top branch” in terms of these results. This has applications in algorithms that can be used to sort data in a way that makes it efficiently searchable.
